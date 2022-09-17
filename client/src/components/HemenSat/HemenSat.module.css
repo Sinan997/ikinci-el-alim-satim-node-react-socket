@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  padding: 0.7rem 0.5rem 0.7rem 0.7rem;
+  border: 1px solid rgb(96, 165, 68);
+  background-color: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.btn:hover {
+  background-color: rgb(96, 165, 68);
+  color: white;
+}
+
+.btn:hover .icon {
+  color: rgb(96, 165, 68);
+  background-color: white;
+}
+
+.icon {
+  margin-left: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: rgb(96, 165, 68);
+  color: white;
+  transition: all 0.4s ease;
+  font-size: 2rem;
+}

@@ -1,0 +1,54 @@
+.container {
+  display: grid;
+  align-items: center;
+  background-color: #080420;
+  padding: 0 2rem;
+  padding-bottom: 0.3rem;
+}
+
+.inputContainer {
+  width: 100%;
+  border-radius: 2rem;
+  display: flex;
+  align-content: center;
+  gap: 2rem;
+  background-color: #ffffff34;
+}
+
+.inputContainer input {
+  width: 90%;
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.inputContainer input::selection {
+  background-color: #9186f3;
+}
+.inputContainer input:focus {
+  outline: none;
+}
+
+.inputContainer button {
+  padding: 0.3rem 2rem;
+  cursor: pointer;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9a86f3;
+  border: none;
+  @media screen and(min-width:720px) and (max-width: 1080px) {
+    padding: 0.3rem 1rem;
+  }
+}
+
+.inputContainer button svg {
+  font-size: 2rem;
+  color: white;
+  @media screen and(min-width:720px) and (max-width: 1080px) {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  margin: 4rem auto 0 auto;
+}
+
+.imagesSection {
+  width: 500px;
+}
+
+.bigImage img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center center;
+  transition: all 0.3s ease;
+}
+
+.otherImages img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center center;
+  margin-right: 0.3rem;
+}
+
+.information {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin: 0.8rem;
+}
+
+.information span {
+  margin: 0.1rem 0;
+  color: #444;
+}
+
+.buttons {
+  margin: 1rem 0;
+}
+
+.buttons button {
+  background-color: transparent;
+  padding: 0.7rem 3rem;
+  border: 1px solid rgb(96, 165, 68);
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin: 0 0.3rem;
+}
+
+.buttons button:hover {
+  background-color: rgb(96, 165, 68);
+  color: white;
+  border: 1px solid #fff;
+}
+
+.productName {
+  font-size: 2.5rem;
+  align-self: center;
+  text-transform: capitalize;
+  color: black;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userName {
+  text-transform: capitalize;
+}

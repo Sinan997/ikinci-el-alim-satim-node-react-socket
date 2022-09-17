@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container form input,
+textarea {
+  padding: 0.5rem 0.7rem;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  border: 1px solid #ccc;
+}
+
+.container form input:focus,
+.container form textarea:focus {
+  outline: none;
+  border-color: rgb(96, 165, 68);
+}
+
+.container form label {
+  margin-top: 0.6rem;
+  font-size: 1.1rem;
+}
+
+.container form button {
+  background-color: transparent;
+  width: fit-content;
+  margin: 1rem auto;
+  padding: 0.7rem 3rem;
+  border: 1px solid rgb(96, 165, 68);
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.container form button:hover {
+  background-color: rgb(96, 165, 68);
+  color: white;
+  border: 1px solid #fff;
+}

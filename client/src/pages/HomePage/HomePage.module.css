@@ -1,0 +1,10 @@
+.container {
+  margin: 0 auto;
+  width: 1000px;
+  margin-top: 1rem;
+}
+
+.headline {
+  font-size: 2rem;
+  margin: 1rem 0;
+}

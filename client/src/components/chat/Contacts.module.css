@@ -1,0 +1,77 @@
+.container {
+  display: grid;
+  grid-template-rows: 10% 75% 15%;
+  background-color: #080420;
+  overflow: hidden;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.brand h3 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  gap: 0.8rem;
+}
+
+.contacts::-webkit-scrollbar {
+  width: 0.2rem;
+}
+
+.contacts::-webkit-scrollbar-thumb {
+  background-color: #ffffff39;
+  width: 0.1rem;
+  border-radius: 1rem;
+}
+
+.contact {
+  background-color: #ffffff39;
+  min-height: 5rem;
+  width: 90%;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  padding: 0.4rem;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  transition: 0.5s ease-in-out;
+}
+
+.username h3 {
+  color: white;
+}
+
+.selected {
+  background-color: #9186f3;
+}
+
+.currentUser {
+  background-color: #0d0d30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  @media screen and(min-width:720px) and (max-width: 1080px) {
+    gap: 0.5rem;
+  }
+}
+
+.currentUser img {
+  height: 4rem;
+  max-block-size: 100%;
+}
+
+.username h2 {
+  color: white;
+}

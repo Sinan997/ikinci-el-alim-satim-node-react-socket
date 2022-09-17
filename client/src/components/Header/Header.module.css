@@ -1,0 +1,138 @@
+.headerStart {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerStart ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #f1f2f3;
+}
+
+.headerStart ul li {
+  margin: 0.6rem 1.5rem;
+  font-size: 13px;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.selected {
+  color: rgb(96, 165, 68);
+  transform: scale(1.03);
+}
+
+.headerStart ul li:hover {
+  color: rgb(96, 165, 68);
+  transform: scale(1.03);
+}
+
+.header {
+  max-width: 1100px;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.headerSearch form {
+  display: flex;
+  position: relative;
+}
+
+.headerSearch form input {
+  width: 400px;
+  font-size: 16px;
+  border: solid 2px #7a8394;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  padding: 1rem;
+}
+
+.headerSearch form input:focus {
+  outline: none;
+  border: 2px solid rgb(96, 165, 68);
+}
+
+.headerSearch form:hover input {
+  border: 2px solid rgb(96, 165, 68);
+}
+
+.headerSearch form button {
+  display: flex;
+  width: 24px;
+  font-size: 24px;
+  cursor: pointer;
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.7;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.headerSearch form:hover button {
+  opacity: 1;
+}
+
+.headerEnd {
+  display: flex;
+  align-items: center;
+}
+
+.auth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+  cursor: pointer;
+  color: black;
+}
+
+.userIcon {
+  font-size: 24px;
+  transition: all 0.3s ease;
+}
+
+.auth span {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.auth:hover span,
+.auth:hover .userIcon {
+  color: rgb(96, 165, 68);
+}
+
+.headerBottom {
+  max-width: 1100px;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+}
+
+.headerBottom ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerBottom ul li {
+  margin: 7px 10px;
+  padding: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.headerBottom ul li:hover {
+  color: rgb(96, 165, 68);
+  transform: scale(1.03);
+}
